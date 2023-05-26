@@ -51,7 +51,7 @@ with open('../data_source/taipei_districts.json', 'r', encoding='utf-8') as f:
 '''mac'''
 # path = '/Users/siowanchoi/Desktop/專題/IntegrateData.csv'
 # path = 'IntegrateData.csv'
-path = 'SeverData.csv'
+path = 'ServeData.csv'
 df = pd.read_csv(path, encoding='utf-8')
 with open('taipei_districts.json', 'r', encoding='utf-8') as f:
     geojson_data = json.load(f)
