@@ -6,3 +6,4 @@ plotly.graph_objects
 datetime
 json
 shapely.geometry
+gunicorn
