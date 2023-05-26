@@ -1,5 +1,3 @@
-/opt/render/project/src/.venv/bin/python -m pip3 install --upgrade pip
-
 from dash import Dash, html, dcc, Input, Output
 import csv
 import pandas as pd
