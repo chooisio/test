@@ -1,0 +1,8 @@
+Dash==2.9.1
+pandas
+numpy
+plotly.express
+plotly.graph_objects
+datetime
+json
+shapely.geometry
