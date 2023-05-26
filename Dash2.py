@@ -23,6 +23,7 @@ def week_def(date):
     return weekday[date%7]
 
 app = Dash(__name__)
+server = app.server
 
 colors = {
     'background': '#434648',
