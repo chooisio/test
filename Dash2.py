@@ -282,8 +282,8 @@ def draw_BubbleMap(selectedData, clickData, clickData2, selectedData2):
 def draw_ChoroplethMap(selectedData, clickData, selectedData2, clickData2):
     # if selectedData is None and clickData is None: #Default
     if selectedData is None and clickData is None and selectedData2 is None and clickData2 is None: # Default
-        df_subset = df.copy()
-        # df_subset = df.head(30000)
+#         df_subset = df.copy()
+        df_subset = df.head(30000)
     elif selectedData is not None and clickData is not None and selectedData2 is not None and clickData2 is not None and selectedData['points'] != []: # All
         label = clickData2['points'][0]['label']
         df_subset = DataOfBM_df.copy()
