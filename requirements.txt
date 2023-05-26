@@ -2,6 +2,5 @@ Dash==2.9.1
 pandas
 numpy
 plotly
-json==2.0.9
 shapely
 gunicorn
