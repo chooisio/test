@@ -1,10 +1,8 @@
-from dash import Dash, html, dcc
+from dash import Dash, html, dcc, Input, Output
 import csv
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import plotly.graph_objects as go
-from dash.dependencies import Input, Output
 from datetime import datetime
 import json
 from shapely.geometry import Polygon, Point
@@ -1194,7 +1192,7 @@ def draw_LineChart(selectedData, clickData, clickData2, selectedData2):
 
 #---------------------------------------------Text callback function---------------------------------------------
 def get_text_fig(data, title):
-    fig = go.Figure()
+    fig = px.scatter()
     fig.add_annotation(
         text=data,
         showarrow=False,
